@@ -3,15 +3,10 @@
 
 CheckWit is a full-stack AI-powered web app that generates high-quality images from natural language prompts. Built with the MERN stack and OpenAI’s DALL·E API, users can create, view, and share generated art through a sleek, responsive interface.
 
-## 📦 Tech Stack
+##  Tech Stack
 
-| Layer     | Tech                         |
-|-----------|------------------------------|
-| Frontend  | React (Vite) + Tailwind CSS  |
-| Backend   | Node.js + Express.js         |
-| Database  | MongoDB (Atlas)              |
-| AI Model  | OpenAI (DALL·E API)          |
-| Hosting   | Vercel & Render              |
+The project is built using the **MERN stack**. The frontend is developed with **React (using Vite for fast bundling)** and styled using **Tailwind CSS** for a clean, responsive UI. The backend is powered by **Node.js** and **Express.js**, handling API requests and server-side logic. **MongoDB Atlas** is used as the cloud database to store generated images and user posts. For AI image generation, the app integrates **OpenAI’s DALL·E API**. The application is hosted using **Vercel** (for the frontend) and **Render** (for the backend).
+
 
 ##  How It Works
 
@@ -21,11 +16,10 @@ CheckWit is a full-stack AI-powered web app that generates high-quality images f
 4. The image is displayed instantly and can be shared to the community gallery  
 5. All shared posts are saved in **MongoDB** and shown on the homepage
    
-##  Project Structure
-checkwit/
-├── client/     # React frontend
-├── server/     # Node + Express backend
-└── README.md
+## Project Structure
+
+The project is organized into two main directories: `client` and `server`. The `client` folder contains the frontend code, built using React (with Vite) and styled using Tailwind CSS. The `server` folder holds the backend logic built with Node.js and Express, including API routes and integration with OpenAI and MongoDB. The root directory also includes the `README.md` file for project documentation.
+
 
 ##  Local Setup Instructions
 
